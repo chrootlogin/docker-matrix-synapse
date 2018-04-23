@@ -2,7 +2,7 @@
 
 set -e
 
-if [ "${SERVER_NAME}" == "example.com" ];
+if [ "${SERVER_NAME}" == "example.com" ]; then
   echo "---------------------------------------------" >&2
   echo "Server name is set to example.com!" >&2
   echo "You should use this only for testing purpose!" >&2
